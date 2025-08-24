@@ -1,6 +1,6 @@
-package pragma.core.application.util;
+package com.pragma.core.application.util;
 
-import pragma.core.domain.exception.ValidationException;
+import com.pragma.core.domain.exception.ValidationException;
 
 public class ValidationUtil {
 

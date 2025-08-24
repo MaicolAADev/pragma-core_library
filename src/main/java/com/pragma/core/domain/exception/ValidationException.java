@@ -1,4 +1,4 @@
-package pragma.core.domain.exception;
+package com.pragma.core.domain.exception;
 
 public class ValidationException extends DomainException {
     public ValidationException(String message, String errorCode) {

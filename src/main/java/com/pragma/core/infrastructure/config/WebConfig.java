@@ -1,6 +1,6 @@
-package pragma.core.infrastructure.config;
+package com.pragma.core.infrastructure.config;
 
-import pragma.core.application.exception.GlobalExceptionHandler;
+import com.pragma.core.application.exception.GlobalExceptionHandler;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 

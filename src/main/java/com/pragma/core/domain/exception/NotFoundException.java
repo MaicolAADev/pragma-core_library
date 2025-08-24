@@ -1,4 +1,4 @@
-package pragma.core.domain.exception;
+package com.pragma.core.domain.exception;
 
 public class NotFoundException extends DomainException {
     public NotFoundException(String message, String errorCode) {

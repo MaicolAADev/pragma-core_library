@@ -1,6 +1,7 @@
-package pragma.core.application.exception;
+package com.pragma.core.application.exception;
 
-import pragma.core.application.response.ApiResponse;
+import com.pragma.core.application.response.ApiResponse;
+import com.pragma.core.domain.exception.*;
 import pragma.core.domain.exception.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

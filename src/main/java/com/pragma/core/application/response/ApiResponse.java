@@ -1,4 +1,4 @@
-package pragma.core.application.response;
+package com.pragma.core.application.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;

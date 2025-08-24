@@ -1,4 +1,4 @@
-package pragma.core.application.util;
+package com.pragma.core.application.util;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -14,7 +14,7 @@ import java.lang.reflect.Method;
 @Slf4j
 public class LoggingAspect {
 
-    @Around("@annotation(pragma.core.application.util.LogExecution)")
+    @Around("@annotation( com.pragma.core.application.util.LogExecution)")
     public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
         MethodSignature signature = (MethodSignature) joinPoint.getSignature();
         Method method = signature.getMethod();
